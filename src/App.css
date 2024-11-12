@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body {
+  background: #3e5151;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.App {
+  text-align: center;
+  margin: 10px auto;
+  width: 900px;
+  background: linear-gradient(to top right, #3e5151, #decba4);
+}
+.topHeading {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+form {
+  display:inline-block;
+  width: 800px;
+}
+.interMarkSheet
+{
+  padding-bottom: 20px;
+}
+form label {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+form div {
+  margin: 10px;
+}
+input[type=text],input[type=password],input[type=number],input[type=Email] {
+  width: 25%;
+  height: 25px;
+  border-radius: 25px;
+  border: 0px;
+  padding: 15px;
+}
+fieldset {
+  margin: 5px;
+  border: 2px dashed #3e5151;
+}
+legend {
+  text-align: left;
+  background: linear-gradient(to top, #3e5151, #decba4);
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px #3e5151;
+}
+.colonSpacing {
+  margin-right: 4px;
+}
+.innerLabel {
+  width: auto;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  left: 9.4rem;
+}
+.maritalStatus {
+  position: relative;
+  right: 1.3rem;
+}
+.age {
+  position: relative;
+  left: 0.1rem;
+}
+.chooseAState {
+  position: relative;
+  right: 0.2em;
+}
+.languagesKnown {
+  position: relative;
+  left: 1.6rem;
+}
+.email, .password {
+  position: relative;
+  left: 0.1em;
+}
+.spanResult {
+  display: inline-block;
+  width: 100px;
+}
+select {
+  width: 175px;
+  border-radius: 25px;
+  height: 25px;
+}
+.buttonStyle {
+  padding: 15px;
+  border-radius: 25px;
+  border: 0px;
+  margin: 5px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.buttonStyle:hover {
+background-color: #3e5151;
+color: white;
+}
+.labelStyle,.spanStyle {
+  color: whitesmoke;
+}
+
+.useStateDiv{
+  padding: 10px;
+}
+.scoreStyle {
+  padding: 10px;
+}
+.scoreDiv, .scoreBTNDiv {
+  display: flex;
+  margin: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.scoreBTN {
+  padding: 10px;
+  background-color: #95947e;
+  border-radius: 15px;
+  border: 0px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.scoreBTN:hover {
+  background-color: #3e5151;
+  color: white;
+  }
+
+  /* TOP NAVIGATION */
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .active  {
+    background-color: #2c3e50;
+    padding: 15px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
